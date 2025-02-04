@@ -10,3 +10,4 @@ pygame
 requests
 face_recognition
 scipy
+cmake

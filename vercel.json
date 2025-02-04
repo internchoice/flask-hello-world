@@ -1,5 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ]
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "hooks": {
+    "build": "apt-get update && apt-get install -y cmake"
+  }
 }

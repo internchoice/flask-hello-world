@@ -1,6 +1,6 @@
 Flask
 opencv-python
-torch
+torch==2.5.0
 numpy
 pyttsx3
 pytesseract
